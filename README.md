@@ -1,18 +1,34 @@
-## Getting Started
+# Pacman Game (Java)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A classic Pac-Man game built using Java AWT/Swing. Includes tile-based
+map loading, smooth player movement, collision detection, pellet and
+power-pellet logic, scoring system, and basic ghost AI.
 
-## Folder Structure
+## Features
 
-The workspace contains two folders by default, where:
+-   Tile-based maze
+-   Player movement + collision
+-   Pellets & power-pellets
+-   Ghost AI
+-   Scoring system
+-   Game loop for smooth gameplay
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## How to Run
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+    git clone https://github.com/gopalkrishna06114/Pacman_Game.git
+    cd Pacman_Game
+    javac -d bin src/**/*.java
+    java -cp bin Main
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Tech Used
 
-## Dependency Management
+Java, AWT, Swing
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Project Structure
+
+Pacman_Game/src → source code\
+Pacman_Game/bin → compiled files
+
+## Future Improvements
+
+Smarter ghost AI, multiple levels, sound effects, high-score system.
